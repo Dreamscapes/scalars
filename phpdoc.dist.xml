@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <parser>
+        <target>tmp</target>
+        <visibility>public</visibility>
+    </parser>
+    <transformer>
+        <target>docs</target>
+    </transformer>
+    <files>
+        <directory>lib</directory>
+    </files>
+    <title>Dreamscapes - Scalars</title>
+    <transformations>
+        <template name="clean"></template>
+    </transformations>
+</phpdoc>
